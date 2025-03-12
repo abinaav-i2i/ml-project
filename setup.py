@@ -21,10 +21,10 @@ def get_requirements(file_path:str)->List[str]:
 
         if HYPEN_E in requirements:
             requirements.remove(HYPEN_E)
-        elif HYPEN_E not in requirements:
-            return ('-e . not in requirements')
-        else:
-            return ('error......')
+        # elif HYPEN_E not in requirements:
+        #     return ('-e . not in requirements')
+        # else:
+        #     return ('error......')
     
     return requirements
 
