@@ -32,8 +32,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='ml-project',
     version='0.0.1',
-    author='Krish',
-    author_email='krishnaik06@gmail.com',
+    author='Abinaav',
+    author_email='abinaav.elango@i2i.com',
     packages=find_packages(),
     install_requires=['pandas', 'numpy', 'seaborn']
 )
